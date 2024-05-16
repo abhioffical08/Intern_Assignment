@@ -1,0 +1,228 @@
+
+/* .wrapper{
+  background: #fff;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0 121px 106px;
+  width: 1915px;
+  box-sizing: border-box;
+} */
+.wrapper .nav_bar {
+    background-color: whitesmoke;
+    padding:1px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper .nav_bar .nav_logo{
+    margin: 8px;
+  }
+  .nav_bar ul {
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .search{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .nav_bar li {
+    margin-right: 20px;
+  }
+  
+  .nav_bar a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .nav_bar a:hover {
+    color: rebeccapurple;
+  }
+  
+  .sign_in {
+    color: white;
+    display: flex;
+    margin:1px;
+    background-color: lightblue;
+    /* padding: 0.5rem  1rem; */
+    padding: 7px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .sign_in:hover {
+    background-color: #555;
+  }
+  .wrapper input[type=text] {
+    border: 1px solid #ccc; 
+    padding: 0.5rem 1rem; 
+    border-radius: 15px;
+    width: 50%;
+  }
+ 
+
+  .wrapper .image_log {
+      width: 251px;
+      height: 44px;
+    }
+
+  .wrapper .clip-path-group {
+  display: flex;
+  border-radius: 50%;
+  box-sizing: border-box;
+  }
+
+
+  .Para_1 {margin-bottom: 106px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Zoho Puvi', 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 19.2px;
+    letter-spacing: 0.2px;
+    line-height: 1.457;
+    color: #000000;
+  }
+  .Para_2{
+
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: 'Zoho Puvi', 'Roboto Condensed';
+      font-weight: 400;
+      font-size: 18.9px;
+      letter-spacing: 0.2px;
+      line-height: 1.269;
+      color: #000000;
+    }
+
+
+    /* ================================================= form ======================================= */
+    /* .page{
+      /* margin: 0;
+      padding: 0; 
+      box-sizing: border-box;
+      font-size: 14px;
+    } 
+
+    .container{
+      background: white;
+      position: absolute;
+      width: 500px;
+      right: 80px;
+      padding: 25px;
+      margin: 50px auto 0;
+      border-top: grey ;
+      box-shadow:  0 0 7px rgb(0 ,0,0,05);
+
+    }
+    .container h2{
+      font-size: 24px;
+      line-height: 24px;
+      padding: 3px;
+      color: blue;
+    }
+
+    .input-name{
+      width: 90%;
+      position: relative;
+      margin: 20px;
+    }
+
+    .name{
+      width: 45%;
+      padding: 8px 0 8px 40px;
+      display: flex;
+    }
+*/
+
+.page {
+  /* max-width: 800px; */
+  /* margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+
+  padding: 0; 
+      box-sizing: border-box;
+      font-size: 14px;
+}
+
+.container {
+  background: white;
+  margin-bottom: 15px;
+      /* position: relative; */
+      width: 500px;
+      right: 80px;
+      padding: 25px;
+      margin: 50px auto 0;
+      border-top: grey ;
+      box-shadow:  0 0 7px rgb(0 ,0,0,05);
+
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 3px;
+    color: blue;
+  margin-top: 0;
+}
+
+.input_name {
+  margin: 20px;
+  position: relative;
+  
+}
+
+input[type="text"], input[type="email"], select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.country{
+  width: 100%;
+}
+.Industry{
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+.backstrip{
+  /* width:max-content; */
+  padding:1px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+    
